@@ -1,0 +1,105 @@
+body {
+    background-color: #333;
+}
+#myMain {
+    background-color: #333;
+    width: 250px;
+    height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+}
+#myInpt1 {
+    width: 250px;
+    border-radius: 10px;
+    height: 50px;
+    border: 5px solid black;
+}
+#myInpt2 {
+    width: 250px;
+    border-radius: 10px;
+    height: 50px;
+    border: 5px solid black;
+}
+#myInpt {
+    display: flex;
+}
+#myBtns {
+    display:  flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+#add {
+    width: 50px;
+    height: 50px;
+    border: 5px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 30px;
+}
+#sub {
+    width: 50px;
+    height: 50px;
+    border: 5px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 30px;
+}
+#time {
+    width: 50px;
+    height: 50px;
+    border: 5px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 30px;
+}
+#divi {
+    width: 50px;
+    height: 50px;
+    border: 5px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 30px;
+}
+#answer {
+    width: 175px;
+    border-radius: 10px;
+    height: 40px;
+    border: 5px solid black;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#reset {
+    width: 50px;
+    height: 60px;
+    border: 5px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#myFinal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#input1 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#input2 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.myInpt {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
