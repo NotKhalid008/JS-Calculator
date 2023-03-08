@@ -2,27 +2,27 @@ body {
     background-color: #333;
 }
 #myMain {
-    background-color: #333;
+    background-color: #212529;
     width: 250px;
     height: 250px;
     margin-right: auto;
     margin-left: auto;
     border-radius: 20px;
+    padding: 15px;
 }
+
+
 #myInpt1 {
-    width: 250px;
+    width: 184px;
     border-radius: 10px;
     height: 50px;
     border: 5px solid black;
 }
 #myInpt2 {
-    width: 250px;
+    width: 184px;
     border-radius: 10px;
     height: 50px;
     border: 5px solid black;
-}
-#myInpt {
-    display: flex;
 }
 #myBtns {
     display:  flex;
@@ -72,16 +72,20 @@ body {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    padding-top: 10px;
+    overflow: auto;
+}
+#answer.child {
+    width: 20px;
 }
 
 #reset {
     width: 50px;
-    height: 60px;
+    height: 50px;
     border: 5px solid black;
     border-radius: 10px;
     cursor: pointer;
     margin-top: 20px;
+    font-weight: bold;
 }
 #myFinal {
     display: flex;
@@ -102,4 +106,32 @@ body {
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: space-between;
+}
+.in1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.in2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#ans1 {
+    width: 50px;
+    height: 50px;
+    border: 5px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+#ans2 {
+    width: 50px;
+    height: 50px;
+    border: 5px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
 }
