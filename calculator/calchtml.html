@@ -1,12 +1,15 @@
 <html>
     <link rel="stylesheet" href="calccss.css">
     <body>
-        <div id="myMain">
-            <div class="myInpt">            
-                <input placeholder="enter second num" type="text" id="myInpt1">
-                &nbsp;
-                <input placeholder="enter first num" type="text" id="myInpt2">
-            </div>
+        <div id="myMain">         
+                <div class="in1">  
+                <input placeholder="enter higher num" type="text" id="myInpt1">
+                <input type="button" id="ans1" value="Ans">
+                </div><br>
+                <div class="in2">
+                <input placeholder="enter lower num" type="text" id="myInpt2">
+                <input type="button" id="ans2" value="Ans">
+                </div>
             <div id="myBtns">
                 <input type="button" id="add" value="&plus;">
                 <input type="button" id="sub" value="&minus;">
@@ -18,6 +21,7 @@
                 <input type="button" id="reset" value="C">
             </div>
         </div>
+    </div>
     </body>
     <script src="calcjs.js"></script>
 </html>
